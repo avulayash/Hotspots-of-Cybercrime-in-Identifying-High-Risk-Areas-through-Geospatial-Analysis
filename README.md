@@ -1,0 +1,2 @@
+# Hotspots-of-Cybercrime-in-Identifying-High-Risk-Areas-through-Geospatial-Analysis
+The project seeks to solve the practical difficulty of turning cyber-attack event records into geospatial intelligence so that cyber analysts, security teams, and decision makers might more easily identify high-risk areas. The adopted approach applies spatial analysis, clustering, supervised learning, model evaluation and explainability methods.
