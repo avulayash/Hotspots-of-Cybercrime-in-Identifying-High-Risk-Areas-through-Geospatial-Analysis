@@ -1,0 +1,90 @@
+{
+    "name": "Banking Loan Portfolio Theme",
+    "dataColors": [
+        "#4A8D91", 
+        "#00A2FF", 
+        "#C1AD7D", 
+        "#F3924D", 
+        "#376331", 
+        "#4A6D81", 
+        "#738591", 
+        "#2D3436"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#2D3436",
+    "tableAccent": "#4A8D91",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#FFFFFF" } },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#B3B3B3" } },
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "fontFamily": "Segoe UI Semibold",
+                        "fontSize": 12,
+                        "color": { "solid": { "color": "#2D3436" } }
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontFamily": "Segoe UI",
+                        "fontSize": 9
+                    }
+                ]
+            }
+        },
+        "card": {
+            "*": {
+                "labels": [
+                    {
+                        "color": { "solid": { "color": "#2D3436" } },
+                        "fontSize": 40,
+                        "fontFamily": "Segoe UI Light"
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#2D3436" } },
+                        "fontSize": 11,
+                        "fontFamily": "Segoe UI Semibold"
+                    }
+                ]
+            }
+        },
+        "donutChart": {
+            "*": {
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Right"
+                    }
+                ]
+            }
+        },
+        "lineChart": {
+            "*": {
+                "dataLabels": [
+                    {
+                        "show": true,
+                        "fontFamily": "Segoe UI Bold"
+                    }
+                ]
+            }
+        }
+    }
+}
